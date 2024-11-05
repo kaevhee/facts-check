@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facts check</title>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="container">
+    <header>
+      <h1>AI Did you Know Facts?</h1>
+    </header>
+    <main>
+      <div class="form-container">
+      <form id="facts-check">
+        <input
+          type="text"
+          placeholder="Enter the subject of the facts..."
+          autofocus
+          required
+          autocomplete="off"
+          class="input"
+          id="user-command"
+        />
+        <input type="submit" class="submit-button" 
+        value="Submit"/>
+      </form>
+      <div class="example">i.e maths, facts or health</div>
+    </div>
+
+      <div class="facts hidden" id="facts-search"></div>
+      </div>
+    </main>
+    <footer>
+      This AI project was coded by
+      <a href="https://github.com/kaevhee">Kaweng Pam</a> and is
+      <a
+        href="https://github.com/kaevhee/Trivia-generator/tree/main"
+        target="_blank"
+        >open-sourced on Github</a
+      >
+      and is hosted
+      <a href="https://ai-trivia-generator.netlify.app/" target="_blank"
+        >on Netlify</a
+      >
+    </footer>
+</div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
