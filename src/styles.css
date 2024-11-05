@@ -1,0 +1,100 @@
+body {
+background: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+  /* border-radius: 1000px; */
+
+}
+
+.input {
+  padding: 16px;
+  border: 1px solid rgba(39, 33, 66, 0.2);
+  width: 70%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+}
+.submit-button {
+  margin-left: 10px;
+  background-color:#d72323;
+
+  color: white;
+  border: none;
+  width: 140px;
+  font-size: 16px;
+  border-radius: 50px;
+  padding: 14px 24px;
+}
+.facts {
+  font-size: 16px;
+  background-color: #ffff;
+  padding: 20px;
+  line-height: 2;
+  border-left: 4px solid #d72323;
+  box-shadow: 1px 3px 3px grey;
+
+}
+.facts strong {
+  color: purple;
+}
+
+a {
+  color: #8a1253;
+}
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #0c317a;
+}
+main {
+  margin-bottom: 30px;
+}
+.form-container {
+  padding: 30px 30px;
+  background-color: #ffffff;
+  box-shadow: 1px 7px 7px grey;
+  border-radius: 500px;
+  margin-bottom: 30px;
+}
+.example {
+  line-height: 1.5;
+  font-size: 11px;
+  opacity: 0.6;
+  margin-top: 5px;
+}
+
+form {
+  display: flex;
+}
+.hidden {
+  display: none;
+}
+.generating{
+  animation:blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation{
+  to{
+    visibility:hidden
+  }
+}
+
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 30px;
+}
